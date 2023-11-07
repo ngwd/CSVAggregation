@@ -1,4 +1,4 @@
-# Exyn's C++ Programming Interview
+# Programming Interview
 Writing code on a white board is stressful and it doesn't accurately represent the work you'd be doing at Exyn. Instead of white board questions we'll ask you to solve the problem described below. 
 
 The exercise has two parts. First we'll ask you to solve it at home in a Linux environment. We expect that solving this problem will take around an hour or two. When you are finished, generate a patch file and send it to us. Here are some of the things we'll be looking for in your solution:
@@ -11,10 +11,8 @@ The exercise has two parts. First we'll ask you to solve it at home in a Linux e
 - Do you use modern c++ features?
 - Did you maintain project hygiene, treating this like "real world" software that you and your team could maintain in perpetuity? 
 
-After you submit your solution someone from Exyn will review it and your contact at Exyn will contact you to discuss the next steps.
-
 ## Problem Description
-Included in this repository is a data set taken from the [City of Philadelphia's Open Data portal](https://opendataphilly.org/). It has parking violation data from the City of Philadelphia in CSV format.
+Included in this repository is a data set taken from the [City of San Franchisco 's Open Data portal](https://opendataphilly.org/). It has parking violation data from the City of San Francisco in CSV format.
 
 You are being asked to write a command line tool in C++ that transforms the individual tickets into a daily aggregate, with the count of tickets, high, low and average of the fine issued, in addition the data should be broken down by each zip code the ticket was issued in. 
 

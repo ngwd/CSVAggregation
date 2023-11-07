@@ -1,0 +1,2 @@
+mkdir -p build/interview/
+g++ -Iinterview/ -Itest/ -MMD -MP -Wall -std=c++17 -c interview/main.cpp -o build/interview/main.cpp.o

@@ -1,5 +1,5 @@
 # Programming Interview
-Writing code on a white board is stressful and it doesn't accurately represent the work you'd be doing at Exyn. Instead of white board questions we'll ask you to solve the problem described below. 
+Writing code on a white board is stressful and it doesn't accurately represent the work you'd be doing. Instead of white board questions we'll ask you to solve the problem described below. 
 
 The exercise has two parts. First we'll ask you to solve it at home in a Linux environment. We expect that solving this problem will take around an hour or two. When you are finished, generate a patch file and send it to us. Here are some of the things we'll be looking for in your solution:
 
@@ -8,11 +8,11 @@ The exercise has two parts. First we'll ask you to solve it at home in a Linux e
 - Did you add any unnecessary complexity?
 - Do you understand the data?
 - Is it well tested?
-- Do you use modern c++ features?
+- Do you use modern C++ features?
 - Did you maintain project hygiene, treating this like "real world" software that you and your team could maintain in perpetuity? 
 
 ## Problem Description
-Included in this repository is a data set taken from the [City of San Franchisco 's Open Data portal](https://opendataphilly.org/). It has parking violation data from the City of San Francisco in CSV format.
+Included in this repository is a data set taken from the [City of San Francisco 's Open Data portal](https://opendataphilly.org/). It has parking violation data from the City of San Francisco in CSV format.
 
 You are being asked to write a command line tool in C++ that transforms the individual tickets into a daily aggregate, with the count of tickets, high, low and average of the fine issued, in addition the data should be broken down by each zip code the ticket was issued in. 
 
@@ -71,10 +71,9 @@ To run the tests run `make test`.
 To run the program with the sample data run `make run`.
 
 ## Submitting Your Solution
-If you've applied to a job at Exyn and asked to submit your solution this is how:
 
 ### Run `make patch`
-When you've finished solving the problem and are happy with your work run `make patch` from the command line in the root of this project repository. This will generate a file named `exyn_interview_solution.patch`.
+When you've finished solving the problem and are happy with your work run `make patch` from the command line in the root of this project repository. This will generate a file named `interview_solution.patch`.
 
 ### Submit Your Solution
-Once you've generated a patch file please submit it via the link you were provided with by your Exyn contact. Afterwards a software engineer from Exyn will look at your solution. If you run into problems, or have questions please feel free to reach out to your contact with questions.
+Once you've generated a patch file please submit it via the link you were provided with by your contact. Afterwards a software engineer will look at your solution. If you run into problems, or have questions please feel free to reach out to your contact with questions.
